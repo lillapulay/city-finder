@@ -58,7 +58,7 @@ input.search {
   z-index: 2;
   border-radius: 50px;
   font-size: 20px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 5px #a70a588e, inset 0 0 2px rgba(53, 1, 23, 0.19);
 }
 
 .suggestions {
@@ -89,10 +89,6 @@ input.search {
 .suggestions li:nth-child(odd) {
   transform: perspective(100px) rotateX(-3deg) translateY(3px);
   background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
-}
-
-.suggestions li:first-child {
-  text-transform: none;
 }
 
 span.population {
